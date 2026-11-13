@@ -6,5 +6,20 @@
     android:layout_height="match_parent"
     android:id="@+id/main"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.firstapp.HomeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+
 </LinearLayout>
 

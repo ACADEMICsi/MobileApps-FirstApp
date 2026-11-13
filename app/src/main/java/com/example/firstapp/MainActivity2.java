@@ -13,8 +13,17 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        WindowCompat.enableEdgeToEdge(getWindow());
+      //  WindowCompat.enableEdgeToEdge(getWindow());
         setContentView(R.layout.activity_main2);
+
+        if(savedInstanceState == null) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .setReorderingAllowed(true)
+                    .add(R.id.fragmentContainerView, HomeFragment.class,null)
+                    .commit();
+        }
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

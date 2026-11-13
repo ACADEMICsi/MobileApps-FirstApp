@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_home_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Olivia"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:paddingLeft="10dp"
+        android:textFontWeight="10"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are on track to ..."
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/bg_wealth_circle">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍏"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eat More"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Nutritional Food" />
+        <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="83"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wealthy level"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="M"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:background="@drawable/circle_dashed_trasparent"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="T"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/circle_dashed_trasparent"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="W"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/circle_dashed"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="T"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/circle_dashed_trasparent_bluish"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="F"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/circle_dashed_trasparent_bluish"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="S"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/circle_dashed_trasparent_bluish"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="40dp"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/circle_dashed_trasparent_bluish"
+            android:layout_height="40dp"
+            android:text="S"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_meals_sheet">
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
