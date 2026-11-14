@@ -2,6 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item android:title="Item"
-        android:icon=""/>
+    <item
+        android:title="Home"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:checked="true"
+
+        />
+    <item
+        android:title="Record"
+        android:id="@+id/nav_records"
+        android:icon="@drawable/ic_records"/>
+
+    <item
+        android:title="Add Meal"
+        android:id="@+id/nav_add"/>
+
+    <item
+        android:title="Statics"
+        android:id="@+id/nav_statics"/>
+
+    <item
+        android:title="Profile"
+        android:id="@+id/nav_profile"/>
+
 </menu>
