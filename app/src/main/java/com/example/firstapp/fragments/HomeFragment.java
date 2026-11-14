@@ -1,12 +1,13 @@
-package com.example.firstapp;
+package com.example.firstapp.fragments;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import com.example.firstapp.R;
 
 public class HomeFragment extends Fragment {
 

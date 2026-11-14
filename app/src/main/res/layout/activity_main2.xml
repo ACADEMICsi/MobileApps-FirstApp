@@ -5,20 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF">
 
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.example.firstapp.HomeFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:name="com.example.firstapp.fragments.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_height="wrap_content"
+        android:background="#171717"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        app:labelVisibilityMode="unlabeled"
+        app:itemHorizontalTranslationEnabled="false"
+        android:layout_weight="1"
+        />
 
 
 </LinearLayout>
