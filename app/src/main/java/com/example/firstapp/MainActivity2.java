@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 
@@ -22,7 +23,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      //  WindowCompat.enableEdgeToEdge(getWindow());
+       WindowCompat.enableEdgeToEdge(getWindow());
         setContentView(R.layout.activity_main2);
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
