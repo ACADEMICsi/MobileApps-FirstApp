@@ -2,18 +2,123 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    android:background="#FFFFFF">
+    android:background="@drawable/bg_home_gradient">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Screen"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#000000"/>
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a Method"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="64dp"
+            />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Add your meal in the most convinient way"
+            android:textColor="@color/white"
+            />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="140dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Food via Photo"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:padding="24dp"
+            android:background="@drawable/rounded_dashed_transparent"/>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Import Image"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:padding="24dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_dashed_transparent"/>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Only"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:padding="24dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_dashed_transparent"/>
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From Past Meal"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:padding="24dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_dashed_transparent"/>
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+
+        <LinearLayout
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:background="@drawable/circle_full_white"
+            >
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_cancel" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
 
 </LinearLayout>
