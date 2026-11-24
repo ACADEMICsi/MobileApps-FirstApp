@@ -54,7 +54,7 @@
     <View
         android:id="@+id/view10"
         android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:layout_height="50dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -168,11 +168,27 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_shape_low_radius">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Your Journey"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"/>
 
     </LinearLayout>
+
+
 
 
 </LinearLayout>
